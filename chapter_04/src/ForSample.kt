@@ -25,7 +25,7 @@ fun main(args: Array<String>) {
 
     loop@ for (x in 1..10) {
         for (y in 1..10) {
-            if (x * y == 30) {
+            if (x * y == 20) {
                 break@loop
             }
             println(x * y)
